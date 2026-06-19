@@ -1,6 +1,7 @@
 import uvicorn
 
-from app.core import create_app, Settings
+from app.core.config import Settings
+from app.core.main import create_app
 
 
 settings = Settings()
